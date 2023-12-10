@@ -6,7 +6,7 @@ function Footer() {
     <div style={{width:"100%",heigh:"300px"}} className=' music d-flex align-items-center justify-content-center flex-column' >
         <div className='footer d-flex align-items-center justify-content-evenly w-100 '>
             <div className="website" style={{width:"400px"}}>
-                <h4><i class="fa-solid fa-video fa-beat text-warning me-3"></i> Media Player</h4>
+                <h4> Musica</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque natus soluta ad doloremque ratione, nulla incidunt quia aspernatur nihil facilis veritatis recusandae atque. Est, inventore nisi. Quibusdam nulla fugiat iure.</p>
             </div>
             <div className="links d-flex flex-column">
@@ -40,7 +40,7 @@ function Footer() {
             </div>
 
         </div>
-        <p>Copyright © 2023 Media Player </p>
+        <p>Copyright © 2023 Musica </p>
     </div>
   )
 }

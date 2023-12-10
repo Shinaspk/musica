@@ -1,11 +1,13 @@
 import axios from "axios"
 
-const commonAPI=async(http,url,reqbody)=>{
+
+
+const commonAPI=async(http,url,body)=>{
     let reqConfig={
 
         method:http,
         url,
-        data:reqbody,
+        data:body,
         Headers:{
             'Content-Type':"application/json"
         }
@@ -15,4 +17,4 @@ const commonAPI=async(http,url,reqbody)=>{
             return err
         })
     }
-    export default commonAPI()
+    export default commonAPI

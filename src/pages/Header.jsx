@@ -7,17 +7,19 @@ import Form from 'react-bootstrap/Form';
 import Badge from 'react-bootstrap/Badge';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-
+import './cover.css'
 
 function Header() {
     const favlist=useSelector((state)=>state.favReducer)
     console.log(favlist);
+  
+
   return (
     <div>
 
-<Navbar expand="lg" className=" bg-body-tertiary">
+<Navbar expand="lg" className="head bg-body-tertiary">
         <Container fluid>
-          <Navbar.Brand className=' fw-bolder fs-3 'style={{marginLeft:'70px', color:'grey'}} href="#"><img style={{height:"100px",width:'100px'}} className='me-2 rounded-circle' src="https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg" alt="" />MUSICAA</Navbar.Brand>
+          <Navbar.Brand className=' fw-bolder fs-3 'style={{ color:'grey'}} href="#"><img style={{height:"100px",width:'100px'}} className='me-2 rounded-circle' src="https://cdn.dribbble.com/users/3547568/screenshots/14395014/music_jpeg_4x.jpg" alt="" />MUSICA</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
            
